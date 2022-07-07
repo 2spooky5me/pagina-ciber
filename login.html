@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand p-4 img-custom" href="#">
+                <img src="imagenes/logo.png" alt="..." height="150">
+            </a>
+                <h1 class="text-white justify-content-center txt-custom">AQUITEL CENTRO C.A</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                <div class="row">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Pagina Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login.html">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register.html">Registrese</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register.html">Servicios</a>
+                    </li>
+                </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--SEPARADOR-->
+    <div id="separador">
+        <div class="content bg-custom"></div>
+    </div>
+    <!--Login-->
+    <div class="row m-0 h-100">
+        <div class="col p-0 text-center d-flex justify-content-center align-items-center display-none">
+            <img src="imagenes/login.png" class="w-75">
+        </div>
+        <div class="col p-0 bg-custom d-flex justify-content-center align-items-center flex-column w-100">
+            <form class="w-75" action="#">
+                <div class="mb-3">
+                    <label for="Usuario" class="form-label">Usuario</label>
+                    <input type="text" class="form-control" id="Usuario" placeholder="Porfavor introduzca su usuario"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="Registro" class="form-label">Contraseña</label>
+                    <input type="text" class="form-control" id="Registro" placeholder="Porfavor introduzca su contraseña"
+                        required>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Mantener la sesion abierta
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-secondary btn-custom btn-lg btn-block mt-3">Iniciar sesion</button>
+            </form>
+            <p class="text-center mt-3 text-white">Si no posee una cuenta, Porfavor <a href="/register.html">registrese.</a></p>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

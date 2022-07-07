@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand p-4 img-custom" href="#">
+                <img src="imagenes/logo.png" alt="..." height="150">
+            </a>
+                <h1 class="text-white align-items-center txt-custom">AQUITEL CENTRO C.A</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                <div class="row">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Pagina Principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login.html">Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register.html">Registrese</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/register.html">Servicios</a>
+                    </li>
+                </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--SEPARADOR-->
+    <div id="separador">
+        <div class="content bg-custom"></div>
+    </div>
+    <!--Registro-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="signup-form">
+                    <form action="" class="mt-5 border p-4 bg-light shadow">
+                        <h4 class="mb-5 text-secondary">Cree su cuenta</h4>
+                        <div id="registro">
+                        <div class="row">
+                            <div class="mb-3 col-md-12">
+                                <label>Nombre de Usuario<span class="text-danger">*</span></label>
+                                <input type="text" name="Nombre" class="form-control" placeholder="Introduzca su Nombre de Usuario">
+                            </div>
+
+                            <div class="mb-3 col-md-6">
+                                <label>Nombre<span class="text-danger">*</span></label>
+                                <input type="text" name="Nombre" class="form-control" placeholder="Introduzca su Nombre">
+                            </div>
+    
+                            <div class="mb-3 col-md-6">
+                                <label>Apellido<span class="text-danger">*</span></label>
+                                <input type="text" name="Apellido" class="form-control" placeholder="Introduzca su Apellido">
+                            </div>
+    
+                            <div class="mb-3 col-md-12">
+                                <label>Contraseña<span class="text-danger">*</span></label>
+                                <input type="password" name="contraseña" class="form-control" placeholder="Introduzca la Contraseña">
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <label>Confirme la contraseña<span class="text-danger">*</span></label>
+                                <input type="password" name="confirmarcontraseña" class="form-control" placeholder="Confirme la contraseña">
+                            </div>
+                            <div class="col-md-12">
+                                <button class="btn btn-primary float-end">Registrarse</button>
+                            </div>
+                        </div>
+                        </div>
+                    </form>
+                    <p class="text-center mt-3 text-secondary">Si ya posee una cuenta, Porfavor <a href="/login.html">Inicie sesión</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
